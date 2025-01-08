@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 3</title>
-</head>
-<body>
-    <h1>Storytelling Contest</h1>
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>Storytelling Contest</h1>
+    </header>
+    <main>
+      <form action="/submit">
+        <div>
+          <h4>Tell Your Story:</h4>
+          <textarea
+            rows="6"
+            cols="30"
+            name="storytelling"
+            id="storytelling"
+            placeholder="Write Your Story"
+          ></textarea>
+        </div>
+        <div>
+          <label for="rating">Rate the story:</label>
+          <select name="" id="">
+            <option value="good">good</option>
+            <option value="excellent">Excellent</option>
+          </select>
+        </div>
+        <div>
+          <input type="button" value="Button" />
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
